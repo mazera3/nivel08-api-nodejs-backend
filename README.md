@@ -20,7 +20,12 @@
     },
   };
   ```
-- Conceito de Migrations - 02:55
+- Conceito de <b>Migrations</b> - 02:55 - Nessa aula aprenderemos os conceitos de Migrations suas vantagens e seus métodos (`UP` e `DOWN`)
+  - é uma forma de versionar a base de dados
+  - migrations trabalha na manipulação da base de dados: criando, alterando ou removendo.
+  - Métodos de uma Migrations:
+    - <b>UP:</b> método responsável por criar ou alterar algo no banco de dados
+    - <b>DOWN:</b> responsável pelo rollback, ou seja, responsável por desfazer as alterações realizadas pela migration.
 - Migrations para Notes - 08:49
 - NPM vs NPX - 03:10
 - Primary key e Foreign key - 05:22
