@@ -50,7 +50,8 @@
   - A chave primária possui um id único com ela na tabela, já a chave estrangeira faz a referência desse id da chave primária em outras tabelas.
     <img src="./img/node2.jpg">
 
-- Cardinalidade - 02:32
+- Cardinalidade - 02:32 - Nessa aula aprenderemos o que é Cardinalidade, ou seja a frequência que uma tabela se relaciona com a outra. Para isso, vamos visualizar a estrutura do nosso banco de dados.
+
 - Migrations para Link e Tag - 07:16
 - Cadastrando nota - 09:58
 - Exibindo nota - 04:24
