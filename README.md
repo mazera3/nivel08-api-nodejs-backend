@@ -2,7 +2,9 @@
 
 - O que é um SQL Query Builder - 04:07: Nessa aula aprenderemos o que é um SQL Query Builder e quais as vantagens de utilizá-lo em relação a um banco de dados específico.
   <img src="./img/node1.jpg">
-- Instalando Knex.js - 00:55
+- Instalando Knex.js - 00:55 - Nessa aula aprenderemos como instalar o Query Builder Knex.js
+  - Instalação: [Knex.js - A SQL Query Builder for Javascript](http://knexjs.org/#Installation-node) - `npm install knex --save`, `npm install sqlite3 --save`
+    <img src="./img/knex.png">
 - Configurando o Knex.js - 04:44
 - Conceito de Migrations - 02:55
 - Migrations para Notes - 08:49
