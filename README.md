@@ -38,8 +38,18 @@
   - Adicionar no package.json o script: "migrate": "knex migrate:latest"
   - Rodar o script: `npm run migrate`
 
-- NPM vs NPX - 03:10
-- Primary key e Foreign key - 05:22
+- NPM vs NPX - 03:10 - Nessa aula entenderemos a diferença entre usar o NPM e o NPX. Basicamente o NPM é utilizado para instalar pacotes, enquanto o NPX é utilizado para executar pacotes.
+
+  - Node Package Manager (NPM) - é um gerenciador de pacotes para o Node.JS
+  - Os pacotes e módulos necessários no projeto Node são instalados usando `npm`
+  - E também utilizamos o npm para executar scripts e bibliotecas instaladas.
+  - Node Package Execute (NPX) - é um executor de pacotes npm que pode executar qualquer pacote que coce quiser no registro npm sem se quer instalar esse pacote.
+
+- Primary key e Foreign key - 05:22 - Nessa aula entenderemos a diferença entre chave primária e chave estrangeira.
+
+  - A chave primária possui um id único com ela na tabela, já a chave estrangeira faz a referência desse id da chave primária em outras tabelas.
+    <img src="./img/node2.jpg">
+
 - Cardinalidade - 02:32
 - Migrations para Link e Tag - 07:16
 - Cadastrando nota - 09:58
