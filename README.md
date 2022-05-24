@@ -52,7 +52,10 @@
 
 - Cardinalidade - 02:32 - Nessa aula aprenderemos o que é Cardinalidade, ou seja a frequência que uma tabela se relaciona com a outra. Para isso, vamos visualizar a estrutura do nosso banco de dados.
 
-- Migrations para Link e Tag - 07:16
+- Migrations para Link e Tag - 07:16 - Nessa aula criaremos mais duas migrations em nosso projeto que proverá as tabelas link e tags em nosso banco de dados
+  - `npx knex migrate:make createTags`
+  - `npx knex migrate:make createLinks`
+    <img src="./img/node3.jpg">
 - Cadastrando nota - 09:58
 - Exibindo nota - 04:24
 - Deletando nota - 03:14
