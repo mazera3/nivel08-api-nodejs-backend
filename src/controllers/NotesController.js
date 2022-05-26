@@ -1,4 +1,3 @@
-const { is } = require("express/lib/request");
 const knex = require("../database/knex");
 
 class NodesController {

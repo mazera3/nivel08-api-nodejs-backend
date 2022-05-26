@@ -101,7 +101,8 @@ const tags = [
 
 - Obtendo tags da nota - 01:22 - Nessa aula aplicaremos os conceitos vistos na aula anterior em nosso projeto.
 
-- Listando Tags - 06:31
+- Listando Tags - 06:31 - Nessa aula faremos um novo Controller para listar todas as tags do usuário.
+
 - Testando tudo - 09:02
 - Conclusão - 10:17
 
