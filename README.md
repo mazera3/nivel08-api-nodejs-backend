@@ -99,7 +99,8 @@ const tags = [
   <img src="./img/node10.jpg">
   <img src="./img/node11.jpg">
 
-- Obtendo tags da nota - 01:22
+- Obtendo tags da nota - 01:22 - Nessa aula aplicaremos os conceitos vistos na aula anterior em nosso projeto.
+
 - Listando Tags - 06:31
 - Testando tudo - 09:02
 - Conclusão - 10:17
