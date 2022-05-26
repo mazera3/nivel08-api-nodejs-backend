@@ -117,7 +117,7 @@ const tags = [
        <img src="./img/node15.jpg">
   - 7. Testando as outras funcionalidades
 
-- Conclusão - 10:17
+- Conclusão - 10:17 - Nessa aula faremos a revisão de tudo que foi visto até aqui.
 
 ```
 
