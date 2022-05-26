@@ -81,7 +81,6 @@
 
 - Aplicando Inner Join - 03:31
 - Map e Filter - 10:19
-  <img src="./img/node7.jpg">
 - Obtendo tags da nota - 01:22
 - Listando Tags - 06:31
 - Testando tudo - 09:02
