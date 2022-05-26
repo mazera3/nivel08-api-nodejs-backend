@@ -103,7 +103,20 @@ const tags = [
 
 - Listando Tags - 06:31 - Nessa aula faremos um novo Controller para listar todas as tags do usuário.
 
-- Testando tudo - 09:02
+- Testando tudo - 09:02 - Nessa aula faremos todos os testes necessários para verificar se o nosso projeto está funcionando tudo corretamente.
+
+  - 1. Excluir o banco de dados
+  - 2. parar o servidor
+  - 3. Reiniciar: `npm run dev`
+  - 4. Rodar o script da migration: `npm run migrate`
+       <img src="./img/node12.jpg">
+  - 5. Criar um usuário no insomnia
+       <img src="./img/node13.jpg">
+       <img src="./img/node14.jpg">
+  - 6. Testar email único
+       <img src="./img/node15.jpg">
+  - 7. Testando as outras funcionalidades
+
 - Conclusão - 10:17
 
 ```

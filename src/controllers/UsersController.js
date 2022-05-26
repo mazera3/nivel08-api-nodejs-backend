@@ -45,11 +45,13 @@ class UsersController {
     user.email = email ?? user.email;
 
     if (password && !old_password) {
-      throw new AppError("A senha antiga não foi informada!");
-    } else {
+      throw new AppError("The old password was not provided!");
+    }
+
+    if (password && old_password) {
       const checkOldPassword = await compare(old_password, user.password);
       if (!checkOldPassword) {
-        throw new AppError("Usuário ou Senha Incorretos!");
+        throw new AppError("Incorrect username or password!");
       }
       user.password = await hash(password, 8);
     }

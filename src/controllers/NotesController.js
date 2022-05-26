@@ -28,7 +28,7 @@ class NodesController {
     });
     await knex("tags").insert(tagsInsert);
 
-    response.json();
+    response.json("Note successfully registered!");
   }
   async show(request, response) {
     const { id } = request.params;
@@ -47,8 +47,15 @@ class NodesController {
   }
   async delete(request, response) {
     const { id } = request.params;
-    await knex("notes").where({ id }).delete();
-    return response.json("excluído com sucesso");
+    // criado por min
+    const note = await knex("notes").where({ id }).first();
+    //
+    if (note) {
+      await knex("notes").where({ id }).delete();
+      return response.json("Note successfully deleted!");
+    } else {
+      return response.json("Note not found!");
+    }
   }
   async list(request, response) {
     const { text, user_id, tags } = request.query;
