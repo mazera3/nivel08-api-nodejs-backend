@@ -72,7 +72,12 @@
 
 - Filtro WhereIn - 03:21 - Nessa aula utilizaremos o filtro WhereIn para filtrar realmente o que é necessário em nossa busca no banco de dados.
 
-- Conceito de Inner Join - 08:53
+- Conceito de Inner Join - 08:53 - Nessa aula aprenderemos sobre Inner Join para fazer a junção de duas tabelas e trazer um resultado em conjunto desses dados.
+  <img src="./img/node4.jpg">
+  <img src="./img/node5.jpg">
+  <img src="./img/node6.jpg">
+  <img src="./img/node7.jpg">
+
 - Aplicando Inner Join - 03:31
 - Map e Filter - 10:19
 - Obtendo tags da nota - 01:22
