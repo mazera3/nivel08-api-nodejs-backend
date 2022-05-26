@@ -62,7 +62,8 @@
 
 - Deletando nota - 03:14 - Nessa aula criaremos a rota para deletar a nota em modo cascata em nosso banco de dados.
 
-- Listando notas - 03:28
+- Listando notas - 03:28 - Nessa aula criaremos a rota para listar as notas cadastradas em nosso banco de dados incluindo as tags e links.
+
 - Operador Like - 02:14
 - Filtro WhereIn - 03:21
 - Conceito de Inner Join - 08:53
