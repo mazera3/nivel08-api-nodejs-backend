@@ -56,7 +56,8 @@
   - `npx knex migrate:make createTags`
   - `npx knex migrate:make createLinks`
     <img src="./img/node3.jpg">
-- Cadastrando nota - 09:58
+- Cadastrando nota - 09:58 - Nessa aula criaremos uma nova Migration em nosso projeto, para conseguirmos cadastrar as notas diretamente da nossa API.
+
 - Exibindo nota - 04:24
 - Deletando nota - 03:14
 - Listando notas - 03:28
