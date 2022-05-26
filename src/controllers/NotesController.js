@@ -1,3 +1,4 @@
+const { is } = require("express/lib/request");
 const knex = require("../database/knex");
 
 class NodesController {
@@ -51,11 +52,18 @@ class NodesController {
     return response.json("excluído com sucesso");
   }
   async list(request, response) {
-    const { text, user_id } = request.query;
-    const notes = await knex("notes")
-      .where({ user_id })
-      .whereLike("title", `%${text}%`)
-      .orderBy("title");
+    const { text, user_id, tags } = request.query;
+    let notes;
+    if (tags) {
+      const filterTags = tags.split(",").map((tag) => tag.trim());
+      // console.log(filterTags);
+      notes = await knex("tags").whereIn("name", filterTags);
+    } else {
+      notes = await knex("notes")
+        .where({ user_id })
+        .whereLike("title", `%${text}%`)
+        .orderBy("title");
+    }
     return response.json(notes);
   }
 }

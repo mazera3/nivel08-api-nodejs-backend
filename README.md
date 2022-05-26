@@ -70,7 +70,8 @@
   - Pesquisa: Nodejs
   - Resultado: Introdução Nodejs
 
-- Filtro WhereIn - 03:21
+- Filtro WhereIn - 03:21 - Nessa aula utilizaremos o filtro WhereIn para filtrar realmente o que é necessário em nossa busca no banco de dados.
+
 - Conceito de Inner Join - 08:53
 - Aplicando Inner Join - 03:31
 - Map e Filter - 10:19
