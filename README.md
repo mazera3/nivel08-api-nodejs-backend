@@ -77,6 +77,7 @@
   <img src="./img/node5.jpg">
   <img src="./img/node6.jpg">
   <img src="./img/node7.jpg">
+  <img src="./img/node8.jpg">
 
 - Aplicando Inner Join - 03:31
 - Map e Filter - 10:19
