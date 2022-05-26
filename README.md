@@ -58,7 +58,8 @@
     <img src="./img/node3.jpg">
 - Cadastrando nota - 09:58 - Nessa aula criaremos uma nova Migration em nosso projeto, para conseguirmos cadastrar as notas diretamente da nossa API.
 
-- Exibindo nota - 04:24
+- Exibindo nota - 04:24 - Nessa aula criaremos a rota para exibir a nota que o usuário cadastrou no Rocketnotes
+
 - Deletando nota - 03:14
 - Listando notas - 03:28
 - Operador Like - 02:14
