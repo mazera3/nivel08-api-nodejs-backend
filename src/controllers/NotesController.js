@@ -45,6 +45,11 @@ class NodesController {
       links,
     });
   }
+  async delete(request, response) {
+    const { id } = request.params;
+    await knex("notes").where({ id }).delete();
+    return response.json("excluído com sucesso");
+  }
 }
 
 module.exports = NodesController;

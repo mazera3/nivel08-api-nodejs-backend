@@ -60,7 +60,8 @@
 
 - Exibindo nota - 04:24 - Nessa aula criaremos a rota para exibir a nota que o usuário cadastrou no Rocketnotes
 
-- Deletando nota - 03:14
+- Deletando nota - 03:14 - Nessa aula criaremos a rota para deletar a nota em modo cascata em nosso banco de dados.
+
 - Listando notas - 03:28
 - Operador Like - 02:14
 - Filtro WhereIn - 03:21
