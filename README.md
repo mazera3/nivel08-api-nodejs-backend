@@ -79,7 +79,8 @@
   <img src="./img/node7.jpg">
   <img src="./img/node8.jpg">
 
-- Aplicando Inner Join - 03:31
+- Aplicando Inner Join - 03:31 - Nessa aula aplicaremos o Inner Join dentro do nosso projeto unificando as tabelas notes e tags.
+
 - Map e Filter - 10:19
 - Obtendo tags da nota - 01:22
 - Listando Tags - 06:31
