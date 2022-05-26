@@ -51,8 +51,11 @@ class NodesController {
     return response.json("excluído com sucesso");
   }
   async list(request, response) {
-    const { user_id } = request.query;
-    const notes = await knex("notes").where({ user_id }).orderBy("title");
+    const { text, user_id } = request.query;
+    const notes = await knex("notes")
+      .where({ user_id })
+      .whereLike("title", `%${text}%`)
+      .orderBy("title");
     return response.json(notes);
   }
 }

@@ -64,7 +64,12 @@
 
 - Listando notas - 03:28 - Nessa aula criaremos a rota para listar as notas cadastradas em nosso banco de dados incluindo as tags e links.
 
-- Operador Like - 02:14
+- Operador Like - 02:14 - Nessa aula aprenderemos como utilizar o operador `like` para buscar valores que contenham partes de uma palavra. Exemplo:
+
+  - Registro no banco: Introdução Nodejs
+  - Pesquisa: Nodejs
+  - Resultado: Introdução Nodejs
+
 - Filtro WhereIn - 03:21
 - Conceito de Inner Join - 08:53
 - Aplicando Inner Join - 03:31
