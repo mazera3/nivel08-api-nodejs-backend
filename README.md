@@ -81,8 +81,29 @@
 
 - Aplicando Inner Join - 03:31 - Nessa aula aplicaremos o Inner Join dentro do nosso projeto unificando as tabelas notes e tags.
 
-- Map e Filter - 10:19
+- Map e Filter - 10:19 - Nessa aula aprenderemos a utilizar a função `map` e `filter` utilizando a ferramenta PlayCode.
+  - PlayCode: [PlayCode - Javascript Playground](https://playcode.io/)
+    <img src="./img/node9 .jpg">
+  - Coleção de dados:
+
+```js
+const tags = [
+  { id: 1, name: "node", note_id: 1 },
+  { id: 2, name: "express", note_id: 1 },
+  { id: 3, name: "react", note_id: 1 },
+  { id: 4, name: "javascript", note_id: 2 },
+  { id: 5, name: "frontend", note_id: 2 },
+];
+```
+
+  <img src="./img/node10.jpg">
+  <img src="./img/node11.jpg">
+
 - Obtendo tags da nota - 01:22
 - Listando Tags - 06:31
 - Testando tudo - 09:02
 - Conclusão - 10:17
+
+```
+
+```
